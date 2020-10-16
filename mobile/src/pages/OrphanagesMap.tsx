@@ -13,6 +13,11 @@ const OrphanagesMap: React.FC = () => {
     navigation.navigate('OrphanageDetails'); 
   }
 
+  const handleNavigationToCreateOrphanage = () => {
+    navigation.navigate('SelectMapPosition'); 
+  }
+  
+
   return (
     <View style={styles.container}>
       <MapView 
@@ -65,7 +70,7 @@ const OrphanagesMap: React.FC = () => {
       <View style={styles.footer}>
         <Text style={styles.footerText}>2 Orfanatos encontrados</Text>
         
-        <TouchableOpacity style={styles.createOrphanageButton} onPress={() => {}}>
+        <TouchableOpacity style={styles.createOrphanageButton} onPress={handleNavigationToCreateOrphanage}>
           <Feather name="plus" size={20} color="#fff" />
         </TouchableOpacity>
       </View>
