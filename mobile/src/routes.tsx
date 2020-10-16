@@ -25,7 +25,7 @@ const Routes: React.FC = () => {
           component={OrphanageDetails} 
           options={{
             headerShown: true,
-            header:() => <Header title="Orfanato"/>
+            header:() => <Header showCancel={false} title="Orfanato"/>
           }}
         />
         
