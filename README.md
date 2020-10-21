@@ -28,21 +28,21 @@
 NLW is a free online event that aims to develop a complete application in one week.
 
 ### Days
-- Dia 1: Acelerando sua evolução 12/10 - :heavy_check_mark:
-- Dia 2: Olhando as oportunidades 13/10 - :construction:
-- Dia 3: A escolha da Stack 14/10 - :construction:
-- Dia 4: Até 2 anos em 2 meses 15/10 - :construction:
-- Dia 5: Milha extra 16/10 - :construction:
+- Dia 1: Acelerando sua evolução 12/10
+- Dia 2: Olhando as oportunidades 13/10
+- Dia 3: A escolha da Stack 14/10
+- Dia 4: Até 2 anos em 2 meses 15/10
+- Dia 5: Milha extra 16/10
 
 ## 🚀 Technologies
 
 This project was developed using the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
-- [TypeScript]()
-- [React]()
-- [React Native]()
-- [Expo]()
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
 
 ## 💻 Project
 
@@ -70,38 +70,33 @@ From your command line:
 
 ### Install API 
 
-🚧 ...Under construction.. 🚧
-
-<!-- ```bash
+```bash
 # Clone this repository
-$ git clone https://github.com/brunoafabricio/NLW-
+$ git clone https://github.com/brunoafabricio/NLW_3_Happy
 
 # Go into the repository
-$ cd NLW-3.0/backend
+$ cd NLW_3_Happy/backend
 
 # Install dependencies
 $ yarn install
 
 # Run Migrates
-$ yarn knex:migrate
-
-# Run Seeds
-$ yarn knex:seed
+$ yarn typeorm migration:run
 
 # Start server
 $ yarn dev
 
 # running on port 3333
-``` -->
+``` 
 
-### Install Front-end
+### Install Front-end (Web or Mobile)
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/brunoafabricio/NLW-
+$ git clone https://github.com/brunoafabricio/NLW_3_Happy
 
 # Go into the repository
-$ cd NLW-3.0/web
+$ cd NLW_3_Happy/web or cd NLW_3_Happy/mobile
 
 # Install dependencies
 $ yarn install
